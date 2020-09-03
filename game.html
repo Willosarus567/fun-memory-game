@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Memory Game</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <div class="memorycard-board">
+                <div id="container4">
+                        <div id="container3">
+                                <p>Timer starts on card click. New game resets timer. Reset flips all cards over</p>
+                                
+                            </div>
+                        
+                            <div id="container2">
+                                <section id="clock">
+                                    <div class="timer">00:00:00</div>
+                                        <script src="stopwatch.js"> </script>
+                                        <script src="main.js"> </script>
+                                </section>
+                            </div>
+                        
+                            <div id="container1">
+                                    <button class="btnClick2" onclick="newGame();">NewGame</button>
+                                    <button class="btnClick" onclick="resetGame();">Reset</button>
+                            </div>
+                        </div> 
+
+            <section class="memory-game">
+        
+                <div class="memory-card" data-framework="DeadPool">
+                    <img class="front-face" src="../img/DeadPool.jpg" alt="DeadPool" />
+                    <img class="back-face" src="../img/JSlogo.jpeg"  alt="JS Badge" />
+                </div>
+                <div class="memory-card" data-framework="DareDevil">
+                    <img class="front-face" src="../img/DareDevil.jpg" alt="DareDevil" />
+                    <img class="back-face" src="../img/JSlogo.jpeg" alt="JS Badge" />
+                </div>
+                <div class="memory-card" data-framework="XMen">
+                    <img class="front-face" src="../img/XMen.jpg" alt="XMen" />
+                    <img class="back-face" src="../img/JSlogo.jpeg" alt="JS Badge" />
+                </div>
+                <div class="memory-card" data-framework="SpiderMan">
+                    <img class="front-face" src="../img/SpiderMan.jpg" alt="SpiderMan" />
+                    <img class="back-face" src="../img/JSlogo.jpeg" alt="JS Badge" />
+                </div>
+                <div class="memory-card" data-framework="LukeCage">
+                    <img class="front-face" src="../img/LukeCage.jpg" alt="LukeCage" />
+                    <img class="back-face" src="../img/JSlogo.jpeg" alt="JS Badge" />
+                </div>
+                <div class="memory-card" data-framework="XMen2">
+                    <img class="front-face" src="../img/XMen2.jpg" alt="XMen2" />
+                    <img class="back-face" src="../img/JSlogo.jpeg" alt="JS Badge" />
+                </div>
+                <div class="memory-card" data-framework="SpiderMan2">
+                    <img class="front-face" src="../img/SpiderMan2.jpg" alt="SpiderMan2" />
+                    <img class="back-face" src="../img/JSlogo.jpeg" alt="JS Badge" />
+                </div>
+                <div class="memory-card" data-framework="Wolverine">
+                    <img class="front-face" src="../img/Wolverine.jpg" alt="Wolverine" />
+                    <img class="back-face" src="../img/JSlogo.jpeg" alt="JS Badge" />
+                </div>
+                <div class="memory-card" data-framework="IronMan">
+                    <img class="front-face" src="../img/IronMan.jpg" alt="IronMan" />
+                    <img class="back-face" src="../img/JSlogo.jpeg" alt="JS Badge" />
+                </div>
+                <div class="memory-card" data-framework="Angularlogo">
+                    <img class="front-face" src="../img/Angularlogo.jpeg" alt="Angularlogo" />
+                    <img class="back-face" src="../img/JSlogo.jpeg" alt="JS Badge" />
+                </div>
+                <div class="memory-card" data-framework="Punisher">
+                    <img class="front-face" src="../img/Punisher.jpg" alt="Punisher" />
+                    <img class="back-face" src="../img/JSlogo.jpeg" alt="JS Badge" />
+                </div>
+                <div class="memory-card" data-framework="React">
+                    <img class="front-face" src="../img/React.jpeg" alt="React" />
+                    <img class="back-face" src="../img/JSlogo.jpeg" alt="JS Badge" />
+                </div>
+        
+                <div class="memory-card" data-framework="DeadPool">
+                    <img class="front-face" src="../img/DeadPool.jpg" alt="DeadPool" />
+                    <img class="back-face" src="../img/JSlogo.jpeg"  alt="JS Badge" />
+                </div>
+                        
+                <div class="memory-card" data-framework="DareDevil">
+                    <img class="front-face" src="../img/DareDevil.jpg" alt="DareDevil" />
+                    <img class="back-face" src="../img/JSlogo.jpeg" alt="JS Badge" />
+                </div>
+
+                <div class="memory-card" data-framework="XMen">
+                    <img class="front-face" src="../img/XMen.jpg" alt="XMen" />
+                    <img class="back-face" src="../img/JSlogo.jpeg" alt="JS Badge" />
+                </div>
+
+                <div class="memory-card" data-framework="SpiderMan">
+                    <img class="front-face" src="../img/SpiderMan.jpg" alt="SpiderMan" />
+                    <img class="back-face" src="../img/JSlogo.jpeg" alt="JS Badge" />
+                </div>
+
+                <div class="memory-card" data-framework="LukeCage">
+                    <img class="front-face" src="../img/LukeCage.jpg" alt="LukeCage" />
+                    <img class="back-face" src="../img/JSlogo.jpeg" alt="JS Badge" />
+                </div>
+
+                <div class="memory-card" data-framework="XMen2">
+                    <img class="front-face" src="../img/XMen2.jpg" alt="XMen2" />
+                    <img class="back-face" src="../img/JSlogo.jpeg" alt="JS Badge" />
+                </div>
+
+                <div class="memory-card" data-framework="SpiderMan2">
+                    <img class="front-face" src="../img/SpiderMan2.jpg" alt="SpiderMan2" />
+                    <img class="back-face" src="../img/JSlogo.jpeg" alt="JS Badge" />
+                </div>
+
+                <div class="memory-card" data-framework="Wolverine">
+                    <img class="front-face" src="../img/Wolverine.jpg" alt="Wolverine" />
+                    <img class="back-face" src="../img/JSlogo.jpeg" alt="JS Badge" />
+                </div>
+
+                <div class="memory-card" data-framework="IronMan">
+                    <img class="front-face" src="../img/IronMan.jpg" alt="IronMan" />
+                    <img class="back-face" src="../img/JSlogo.jpeg" alt="JS Badge" />
+                </div>
+
+                <div class="memory-card" data-framework="Angularlogo">
+                    <img class="front-face" src="../img/Angularlogo.jpeg" alt="Angularlogo" />
+                    <img class="back-face" src="../img/JSlogo.jpeg" alt="JS Badge" />
+                </div>
+
+                <div class="memory-card" data-framework="Punisher">
+                    <img class="front-face" src="../img/Punisher.jpg" alt="Punisher" />
+                    <img class="back-face" src="../img/JSlogo.jpeg" alt="JS Badge" />
+                </div>
+
+                <div class="memory-card" data-framework="React">
+                    <img class="front-face" src="../img/React.jpeg" alt="React" />
+                    <img class="back-face" src="../img/JSlogo.jpeg" alt="JS Badge" />
+                </div>
+        
+        </section>
+    </div>
+
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
